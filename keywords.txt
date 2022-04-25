@@ -1,0 +1,17 @@
+#######################################
+# Syntax Coloring Map For DFRobot_FreeTenIMU
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+DFRobot_FreeTenIMU  KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin   KEYWORD2
+getEul  KEYWORD2
+
+
