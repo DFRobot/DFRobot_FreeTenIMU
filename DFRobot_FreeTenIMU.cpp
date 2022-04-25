@@ -1,6 +1,6 @@
 /*!
  * @file DFRobot_FreeTenIMU.cpp
- * @brief 使用加速度计，陀螺仪，磁力计，温湿度传感器的库
+ * @brief Use accelerometer, gyroscope, magnetometer, temperature and humidity sensor library
  * @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license     The MIT License (MIT)
  * @author      PengKaixing(kaixing.peng@dfrobot.com)

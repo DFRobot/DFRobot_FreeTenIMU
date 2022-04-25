@@ -1,6 +1,6 @@
 /*!
  * @file DFRobot_FreeTenIMU.h
- * @brief 使用加速度计，陀螺仪，磁力计，温湿度传感器的库
+ * @brief Use accelerometer, gyroscope, magnetometer, temperature and humidity sensor library
  * @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license     The MIT License (MIT)
  * @author      PengKaixing(kaixing.peng@dfrobot.com)
@@ -16,7 +16,7 @@
 
 /**
  * @struct sEulAnalog_t
- * @brief 保存实际的翻滚角，偏航角，仰角
+ * @brief Save the actual roll Angle, yaw Angle, elevation Angle
  */
 typedef struct
 {
@@ -25,7 +25,7 @@ typedef struct
 
 /**
  * @struct sEulData_t
- * @brief 保存实际的原始值
+ * @brief Save the actual raw values
  */
 typedef struct
 {
@@ -38,17 +38,17 @@ class DFRobot_FreeTenIMU
     DFRobot_FreeTenIMU(DFRobot_ADXL345_I2C* ADXL345,DFRobot_ITG3200* gyro,DFRobot_QMC5883* compass,DFRobot_BMP280_IIC* bmp);
     /**
      * @fn begin
-     * @brief 传感器初始化 
-     * @return  bool 
-     * @retval  true 初始化成功
-     * @retval  false 初始化失败
+     * @brief Sensor initialization
+     * @return  bool
+     * @retval  true Initialization succeeded
+     * @retval  false Initialization failed
      */
     bool begin(void);
 
     /**
      * @fn getEul
-     * @brief 获取传感器的仰角、翻滚角、偏航角
-     * @return sEulAnalog_t 保存三个角度
+     * @brief Get sensor elevation Angle, roll Angle, yaw Angle
+     * @return sEulAnalog_t Save three angles
      */
     sEulAnalog_t  getEul(void);
   private:

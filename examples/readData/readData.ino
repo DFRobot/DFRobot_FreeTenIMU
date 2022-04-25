@@ -1,6 +1,6 @@
 /*!
  * @file readData.ino
- * @brief 读取10Dof模块采集到的温度、大气压、海拔等信息，并通过串口打印出数值
+ * @brief Read the temperature, atmospheric pressure, altitude and other information collected by the 10Dof module, and print the values through the serial port
  * @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license     The MIT License (MIT)
  * @author      PengKaixing(kaixing.peng@dfrobot.com)

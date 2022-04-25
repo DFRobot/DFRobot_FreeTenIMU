@@ -1,6 +1,6 @@
 /*!
  * @file imuShow.ino
- * @brief 通过I2C接口读取传感器的仰角、翻滚角、偏航角，并将读取到的数据通过串口打印出来
+ * @brief Read the sensor elevation Angle, roll Angle and yaw Angle through the I2C interface, and print the read data through the serial port
  * @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license     The MIT License (MIT)
  * @author      PengKaixing(kaixing.peng@dfrobot.com)

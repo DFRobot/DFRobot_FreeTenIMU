@@ -2,7 +2,7 @@
 
 - [中文版](./README_CN.md)
 
-DFrobot的高集成度低成本的10自由度传感器,集合了ADXL345加速度计、QMC5883L磁罗盘、ITG3205陀螺仪以及BMP280气压传感器和温度传感器。内置了低噪声的低压线性稳压器，还扩展了电源电压输入范围，支持3V-5V电源电压。同时，10自由度IMU也可以直接和Arduino控制板兼容。
+DFrobot's highly integrated and low-cost 10-degree-of-freedom sensor incorporates the ADXL345 accelerometer, QMC5883L magnetic compass, ITG3205 gyroscope, and BMP280 pressure and temperature sensors.  Built-in low noise low voltage linear regulator, but also extended power supply voltage input range, support 3V-5V power supply voltage.  The 10-dOF IMU is also directly compatible with the Arduino board.  
 
 ![正反面svg效果图](./resources/images/SEN0140.png)
 
@@ -21,7 +21,7 @@ DFrobot的高集成度低成本的10自由度传感器,集合了ADXL345加速度
 
 ## Summary
 
-这个库提供了一个获取传感器速度计，陀螺仪，磁力计，温湿度传感的值
+This library provides an access to sensor values for speedometers, gyroscopes, magnetometers, and temperature and humidity sensors  
 
 ## Installation
 
@@ -33,17 +33,17 @@ To use this library, first download the library file, paste it into the \Arduino
 
     /**
      * @fn begin
-     * @brief 传感器初始化 
+     * @brief Sensor initialization
      * @return  bool 
-     * @retval  true 初始化成功
-     * @retval  false 初始化失败
+     * @retval  true Initialization succeeded
+     * @retval  false Initialization failed
      */
     bool begin(void);
 
     /**
      * @fn getEul
-     * @brief 获取传感器的仰角、翻滚角、偏航角
-     * @return sEulAnalog_t 保存三个角度
+     * @brief Get sensor elevation Angle, roll Angle, yaw Angle
+     * @return sEulAnalog_t Save three angles
      */
     sEulAnalog_t  getEul(void);
 
