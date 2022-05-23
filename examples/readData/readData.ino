@@ -1,6 +1,6 @@
 /*!
  * @file readData.ino
- * @brief Read the temperature, atmospheric pressure, altitude and other information collected by the 10Dof module, and print the values through the serial port
+ * @brief Read the temperature, atmospheric pressure, altitude and other information collected by the 10 DOF sensor module, and print the values on serial port
  * @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license     The MIT License (MIT)
  * @author      PengKaixing(kaixing.peng@dfrobot.com)

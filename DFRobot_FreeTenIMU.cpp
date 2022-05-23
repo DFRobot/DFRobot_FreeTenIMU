@@ -1,6 +1,6 @@
 /*!
  * @file DFRobot_FreeTenIMU.cpp
- * @brief Use accelerometer, gyroscope, magnetometer, temperature and humidity sensor library
+ * @brief The library for using the accelerometer, gyroscope, magnetometer, and temperature and humidity sensor
  * @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license     The MIT License (MIT)
  * @author      PengKaixing(kaixing.peng@dfrobot.com)

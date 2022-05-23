@@ -1,6 +1,6 @@
 /*!
  * @file DFRobot_FreeTenIMU.h
- * @brief Use accelerometer, gyroscope, magnetometer, temperature and humidity sensor library
+ * @brief The library for using the accelerometer, gyroscope, magnetometer, and temperature and humidity sensor
  * @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license     The MIT License (MIT)
  * @author      PengKaixing(kaixing.peng@dfrobot.com)
@@ -16,7 +16,7 @@
 
 /**
  * @struct sEulAnalog_t
- * @brief Save the actual roll Angle, yaw Angle, elevation Angle
+ * @brief Save the actual elevation, roll and yaw angle
  */
 typedef struct
 {
@@ -25,7 +25,7 @@ typedef struct
 
 /**
  * @struct sEulData_t
- * @brief Save the actual raw values
+ * @brief Save the actual raw value
  */
 typedef struct
 {
@@ -38,17 +38,17 @@ class DFRobot_FreeTenIMU
     DFRobot_FreeTenIMU(DFRobot_ADXL345_I2C* ADXL345,DFRobot_ITG3200* gyro,DFRobot_QMC5883* compass,DFRobot_BMP280_IIC* bmp);
     /**
      * @fn begin
-     * @brief Sensor initialization
-     * @return  bool
-     * @retval  true Initialization succeeded
-     * @retval  false Initialization failed
+     * @brief Sensor init 
+     * @return  bool 
+     * @retval  true init succeeded
+     * @retval  false init failed
      */
     bool begin(void);
 
     /**
      * @fn getEul
-     * @brief Get sensor elevation Angle, roll Angle, yaw Angle
-     * @return sEulAnalog_t Save three angles
+     * @brief Get the elevation, roll and yaw angle of the sensor
+     * @return sEulAnalog_t save the three angles
      */
     sEulAnalog_t  getEul(void);
   private:

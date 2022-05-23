@@ -1,6 +1,6 @@
 /*!
  * @file imuShow.ino
- * @brief Read the sensor elevation Angle, roll Angle and yaw Angle through the I2C interface, and print the read data through the serial port
+ * @brief Read the elevation, roll and yaw angle of the sensor through I2C interface, and print the read data on serial port
  * @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license     The MIT License (MIT)
  * @author      PengKaixing(kaixing.peng@dfrobot.com)

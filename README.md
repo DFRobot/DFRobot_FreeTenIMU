@@ -2,7 +2,7 @@
 
 - [中文版](./README_CN.md)
 
-DFrobot's highly integrated and low-cost 10-degree-of-freedom sensor incorporates the ADXL345 accelerometer, QMC5883L magnetic compass, ITG3205 gyroscope, and BMP280 pressure and temperature sensors.  Built-in low noise low voltage linear regulator, but also extended power supply voltage input range, support 3V-5V power supply voltage.  The 10-dOF IMU is also directly compatible with the Arduino board.  
+The 10 DOF(degrees of the freedom) IMU sensor is a compact and low-cost IMU from DFRobot. It integrates ADXL345 accelerometer, QMC5883L magnetometer, ITG3205 gyro, BMP280 barometric sensor and temperature sensor. This sensor embeds a low noise LDO regulator for supplying a wide range of power input, and works with a 3V-5V power supply. Certainly, it is compatible with the Arduino board.
 
 ![正反面svg效果图](./resources/images/SEN0140.png)
 
@@ -21,7 +21,7 @@ DFrobot's highly integrated and low-cost 10-degree-of-freedom sensor incorporate
 
 ## Summary
 
-This library provides an access to sensor values for speedometers, gyroscopes, magnetometers, and temperature and humidity sensors  
+This library provides a routine to get the value of the accelerometer, gyro, magnetometer, and temperature and humidity sensor.
 
 ## Installation
 
@@ -33,17 +33,17 @@ To use this library, first download the library file, paste it into the \Arduino
 
     /**
      * @fn begin
-     * @brief Sensor initialization
+     * @brief Sensor init 
      * @return  bool 
-     * @retval  true Initialization succeeded
-     * @retval  false Initialization failed
+     * @retval  true init succeeded
+     * @retval  false init failed
      */
     bool begin(void);
 
     /**
      * @fn getEul
-     * @brief Get sensor elevation Angle, roll Angle, yaw Angle
-     * @return sEulAnalog_t Save three angles
+     * @brief Get the elevation, roll and yaw angle of the sensor
+     * @return sEulAnalog_t save the three angles
      */
     sEulAnalog_t  getEul(void);
 
