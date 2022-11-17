@@ -1,4 +1,5 @@
 # DFRobot_FreeTenIMU
+[![Compile Examples](https://github.com/DFRobot/DFRobot_FreeTenIMU/workflows/Compile%20Examples/badge.svg)](https://github.com/DFRobot/DFRobot_FreeTenIMU/actions?workflow=Compile+Examples)
 
 - [中文版](./README_CN.md)
 
